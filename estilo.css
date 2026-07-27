@@ -19,16 +19,36 @@ body {
 
 main {
     flex: 1;
+    padding: 20px;
 }
 
 .cartao {
     width: 260px;
-    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .cartao-imagem {
     width: 100%;
-    height: 100%;
+    height: 180px;
     object-fit: cover;
     display: block;
+}
+
+.cartao-frente,
+.cartao-verso {
+    text-align: center;
+}
+
+.cartao-frente p,
+.cartao-verso p {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f2f2f2;
 }
