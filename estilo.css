@@ -1,24 +1,14 @@
-{
+*{
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-
-body { 
-  display: flex; 
-  flex-direction: column; 
-  min-height: 100vh; 
-} 
 
 .cabecalho { 
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
   padding: 15px 25px; 
-} 
-
-main { 
-  flex: 1; 
 } 
 
 .cartao {
@@ -32,3 +22,13 @@ main {
     object-fit: cover;
     display: block;
 }
+
+body { 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+} 
+
+main { 
+  flex: 1; 
+} 
