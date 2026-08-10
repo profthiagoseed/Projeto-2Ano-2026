@@ -21,12 +21,12 @@ body {
 }
 
 .cabecalho-link {
-    color: #fff;
+    color: #8b0a0a;
     text-decoration: none;
 }
 
 h1 {
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
 }
 
@@ -77,7 +77,7 @@ h2 {
     backface-visibility: hidden;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
+    background-color: #1824d1ad;
     overflow: hidden;
     text-align: center;
 }
@@ -87,7 +87,7 @@ h2 {
     padding: 15px;
     font-size: 16px;
     line-height: 1.4;
-    color: #333;
+    color: #1bdd1b;
 }
 
 .cartao-verso {
