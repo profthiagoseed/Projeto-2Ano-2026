@@ -1,4 +1,5 @@
 * {
+    /* Corrigido de - para * */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,7 +16,6 @@
 .cartao {
     width: 260px;
     height: 200px;
-    perspective: 1000px; /* Adicionado para o efeito 3D */
 }
 
 .cartao-imagem {
@@ -55,11 +55,13 @@ footer {
     color: aliceblue;
 }
 
-/* Corrigido de .cartao-interno para .cartao-conteudo para bater com o HTML */
+/* Corrigido de .cartao-interno para .cartao-conteudo */
 .cartao-conteudo {
     position: relative;
     width: 100%;
+    /* Necessário para preencher o cartão */
     height: 100%;
+    /* Necessário para preencher o cartão */
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
@@ -72,11 +74,12 @@ footer {
 .cartao-verso {
     position: absolute;
     width: 100%;
+    /* Necessário para as faces aparecerem */
     height: 100%;
-    backface-visibility: hidden;
+    /* Necessário para as faces aparecerem */
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    background-color: #fff; /* Garante que o fundo não seja transparente */
+    backface-visibility: hidden;
 }
 
 .cartao-verso {
